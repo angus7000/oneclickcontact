@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65F541E415B4F4BB00F58A29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F541E315B4F4BB00F58A29 /* UIKit.framework */; };
+		65F541E615B4F4BB00F58A29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F541E515B4F4BB00F58A29 /* Foundation.framework */; };
+		65F541E815B4F4BB00F58A29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F541E715B4F4BB00F58A29 /* CoreGraphics.framework */; };
+		65F541EE15B4F4BB00F58A29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65F541EC15B4F4BB00F58A29 /* InfoPlist.strings */; };
+		65F541F015B4F4BB00F58A29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F541EF15B4F4BB00F58A29 /* main.m */; };
+		65F541F415B4F4BB00F58A29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F541F315B4F4BB00F58A29 /* AppDelegate.m */; };
+		65F541F715B4F4BB00F58A29 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F541F515B4F4BB00F58A29 /* MainStoryboard_iPhone.storyboard */; };
+		65F541FA15B4F4BB00F58A29 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F541F815B4F4BB00F58A29 /* MainStoryboard_iPad.storyboard */; };
+		65F541FD15B4F4BB00F58A29 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F541FC15B4F4BB00F58A29 /* MainViewController.m */; };
+		65F5420015B4F4BB00F58A29 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F541FF15B4F4BB00F58A29 /* FlipsideViewController.m */; };
+		65F5420815B4F4BB00F58A29 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F5420715B4F4BB00F58A29 /* SenTestingKit.framework */; };
+		65F5420915B4F4BB00F58A29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F541E315B4F4BB00F58A29 /* UIKit.framework */; };
+		65F5420A15B4F4BB00F58A29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F541E515B4F4BB00F58A29 /* Foundation.framework */; };
+		65F5421215B4F4BB00F58A29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65F5421015B4F4BB00F58A29 /* InfoPlist.strings */; };
+		65F5421515B4F4BB00F58A29 /* oneclickcontactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F5421415B4F4BB00F58A29 /* oneclickcontactTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65F5420B15B4F4BB00F58A29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65F541D615B4F4BB00F58A29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F541DE15B4F4BB00F58A29;
+			remoteInfo = oneclickcontact;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65F541DF15B4F4BB00F58A29 /* oneclickcontact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneclickcontact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F541E315B4F4BB00F58A29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65F541E515B4F4BB00F58A29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65F541E715B4F4BB00F58A29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65F541EB15B4F4BB00F58A29 /* oneclickcontact-Info.plist */ = {isa = PBXFileReference; path = "oneclickcontact-Info.plist"; sourceTree = "<group>"; };
+		65F541ED15B4F4BB00F58A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65F541EF15B4F4BB00F58A29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65F541F115B4F4BB00F58A29 /* oneclickcontact-Prefix.pch */ = {isa = PBXFileReference; path = "oneclickcontact-Prefix.pch"; sourceTree = "<group>"; };
+		65F541F215B4F4BB00F58A29 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		65F541F315B4F4BB00F58A29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65F541F615B4F4BB00F58A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		65F541F915B4F4BB00F58A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		65F541FB15B4F4BB00F58A29 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		65F541FC15B4F4BB00F58A29 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		65F541FE15B4F4BB00F58A29 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		65F541FF15B4F4BB00F58A29 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		65F5420615B4F4BB00F58A29 /* oneclickcontactTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oneclickcontactTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F5420715B4F4BB00F58A29 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		65F5420F15B4F4BB00F58A29 /* oneclickcontactTests-Info.plist */ = {isa = PBXFileReference; path = "oneclickcontactTests-Info.plist"; sourceTree = "<group>"; };
+		65F5421115B4F4BB00F58A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65F5421315B4F4BB00F58A29 /* oneclickcontactTests.h */ = {isa = PBXFileReference; path = oneclickcontactTests.h; sourceTree = "<group>"; };
+		65F5421415B4F4BB00F58A29 /* oneclickcontactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oneclickcontactTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65F541DC15B4F4BB00F58A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F541E415B4F4BB00F58A29 /* UIKit.framework in Frameworks */,
+				65F541E615B4F4BB00F58A29 /* Foundation.framework in Frameworks */,
+				65F541E815B4F4BB00F58A29 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F5420215B4F4BB00F58A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5420815B4F4BB00F58A29 /* SenTestingKit.framework in Frameworks */,
+				65F5420915B4F4BB00F58A29 /* UIKit.framework in Frameworks */,
+				65F5420A15B4F4BB00F58A29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65F541D415B4F4BB00F58A29 = {
+			isa = PBXGroup;
+			children = (
+				65F541E915B4F4BB00F58A29 /* oneclickcontact */,
+				65F5420D15B4F4BB00F58A29 /* oneclickcontactTests */,
+				65F541E215B4F4BB00F58A29 /* Frameworks */,
+				65F541E015B4F4BB00F58A29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65F541E015B4F4BB00F58A29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65F541DF15B4F4BB00F58A29 /* oneclickcontact.app */,
+				65F5420615B4F4BB00F58A29 /* oneclickcontactTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65F541E215B4F4BB00F58A29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65F541E315B4F4BB00F58A29 /* UIKit.framework */,
+				65F541E515B4F4BB00F58A29 /* Foundation.framework */,
+				65F541E715B4F4BB00F58A29 /* CoreGraphics.framework */,
+				65F5420715B4F4BB00F58A29 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65F541E915B4F4BB00F58A29 /* oneclickcontact */ = {
+			isa = PBXGroup;
+			children = (
+				65F541F215B4F4BB00F58A29 /* AppDelegate.h */,
+				65F541F315B4F4BB00F58A29 /* AppDelegate.m */,
+				65F541F515B4F4BB00F58A29 /* MainStoryboard_iPhone.storyboard */,
+				65F541F815B4F4BB00F58A29 /* MainStoryboard_iPad.storyboard */,
+				65F541FB15B4F4BB00F58A29 /* MainViewController.h */,
+				65F541FC15B4F4BB00F58A29 /* MainViewController.m */,
+				65F541FE15B4F4BB00F58A29 /* FlipsideViewController.h */,
+				65F541FF15B4F4BB00F58A29 /* FlipsideViewController.m */,
+				65F541EA15B4F4BB00F58A29 /* Supporting Files */,
+			);
+			path = oneclickcontact;
+			sourceTree = "<group>";
+		};
+		65F541EA15B4F4BB00F58A29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65F541EB15B4F4BB00F58A29 /* oneclickcontact-Info.plist */,
+				65F541EC15B4F4BB00F58A29 /* InfoPlist.strings */,
+				65F541EF15B4F4BB00F58A29 /* main.m */,
+				65F541F115B4F4BB00F58A29 /* oneclickcontact-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65F5420D15B4F4BB00F58A29 /* oneclickcontactTests */ = {
+			isa = PBXGroup;
+			children = (
+				65F5421315B4F4BB00F58A29 /* oneclickcontactTests.h */,
+				65F5421415B4F4BB00F58A29 /* oneclickcontactTests.m */,
+				65F5420E15B4F4BB00F58A29 /* Supporting Files */,
+			);
+			path = oneclickcontactTests;
+			sourceTree = "<group>";
+		};
+		65F5420E15B4F4BB00F58A29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65F5420F15B4F4BB00F58A29 /* oneclickcontactTests-Info.plist */,
+				65F5421015B4F4BB00F58A29 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65F541DE15B4F4BB00F58A29 /* oneclickcontact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F5421815B4F4BB00F58A29 /* Build configuration list for PBXNativeTarget "oneclickcontact" */;
+			buildPhases = (
+				65F541DB15B4F4BB00F58A29 /* Sources */,
+				65F541DC15B4F4BB00F58A29 /* Frameworks */,
+				65F541DD15B4F4BB00F58A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oneclickcontact;
+			productName = oneclickcontact;
+			productReference = 65F541DF15B4F4BB00F58A29 /* oneclickcontact.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65F5420515B4F4BB00F58A29 /* oneclickcontactTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65F5421B15B4F4BB00F58A29 /* Build configuration list for PBXNativeTarget "oneclickcontactTests" */;
+			buildPhases = (
+				65F5420115B4F4BB00F58A29 /* Sources */,
+				65F5420215B4F4BB00F58A29 /* Frameworks */,
+				65F5420315B4F4BB00F58A29 /* Resources */,
+				65F5420415B4F4BB00F58A29 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65F5420C15B4F4BB00F58A29 /* PBXTargetDependency */,
+			);
+			name = oneclickcontactTests;
+			productName = oneclickcontactTests;
+			productReference = 65F5420615B4F4BB00F58A29 /* oneclickcontactTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65F541D615B4F4BB00F58A29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 65F541D915B4F4BB00F58A29 /* Build configuration list for PBXProject "oneclickcontact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65F541D415B4F4BB00F58A29;
+			productRefGroup = 65F541E015B4F4BB00F58A29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65F541DE15B4F4BB00F58A29 /* oneclickcontact */,
+				65F5420515B4F4BB00F58A29 /* oneclickcontactTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65F541DD15B4F4BB00F58A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F541EE15B4F4BB00F58A29 /* InfoPlist.strings in Resources */,
+				65F541F715B4F4BB00F58A29 /* MainStoryboard_iPhone.storyboard in Resources */,
+				65F541FA15B4F4BB00F58A29 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F5420315B4F4BB00F58A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5421215B4F4BB00F58A29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65F5420415B4F4BB00F58A29 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65F541DB15B4F4BB00F58A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F541F015B4F4BB00F58A29 /* main.m in Sources */,
+				65F541F415B4F4BB00F58A29 /* AppDelegate.m in Sources */,
+				65F541FD15B4F4BB00F58A29 /* MainViewController.m in Sources */,
+				65F5420015B4F4BB00F58A29 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F5420115B4F4BB00F58A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F5421515B4F4BB00F58A29 /* oneclickcontactTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65F5420C15B4F4BB00F58A29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F541DE15B4F4BB00F58A29 /* oneclickcontact */;
+			targetProxy = 65F5420B15B4F4BB00F58A29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65F541EC15B4F4BB00F58A29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F541ED15B4F4BB00F58A29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65F541F515B4F4BB00F58A29 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F541F615B4F4BB00F58A29 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		65F541F815B4F4BB00F58A29 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F541F915B4F4BB00F58A29 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		65F5421015B4F4BB00F58A29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65F5421115B4F4BB00F58A29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65F5421615B4F4BB00F58A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65F5421715B4F4BB00F58A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65F5421915B4F4BB00F58A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oneclickcontact/oneclickcontact-Prefix.pch";
+				INFOPLIST_FILE = "oneclickcontact/oneclickcontact-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65F5421A15B4F4BB00F58A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oneclickcontact/oneclickcontact-Prefix.pch";
+				INFOPLIST_FILE = "oneclickcontact/oneclickcontact-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		65F5421C15B4F4BB00F58A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/oneclickcontact.app/oneclickcontact";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oneclickcontact/oneclickcontact-Prefix.pch";
+				INFOPLIST_FILE = "oneclickcontactTests/oneclickcontactTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		65F5421D15B4F4BB00F58A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/oneclickcontact.app/oneclickcontact";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "oneclickcontact/oneclickcontact-Prefix.pch";
+				INFOPLIST_FILE = "oneclickcontactTests/oneclickcontactTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65F541D915B4F4BB00F58A29 /* Build configuration list for PBXProject "oneclickcontact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F5421615B4F4BB00F58A29 /* Debug */,
+				65F5421715B4F4BB00F58A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F5421815B4F4BB00F58A29 /* Build configuration list for PBXNativeTarget "oneclickcontact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F5421915B4F4BB00F58A29 /* Debug */,
+				65F5421A15B4F4BB00F58A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		65F5421B15B4F4BB00F58A29 /* Build configuration list for PBXNativeTarget "oneclickcontactTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65F5421C15B4F4BB00F58A29 /* Debug */,
+				65F5421D15B4F4BB00F58A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65F541D615B4F4BB00F58A29 /* Project object */;
+}

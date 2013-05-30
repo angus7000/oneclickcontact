@@ -35,27 +35,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65AA8C8915B4F805009EEEAE /* oneclickcontact.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = oneclickcontact.entitlements; sourceTree = "<group>"; };
 		65F541DF15B4F4BB00F58A29 /* oneclickcontact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneclickcontact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F541E315B4F4BB00F58A29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		65F541E515B4F4BB00F58A29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		65F541E715B4F4BB00F58A29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		65F541EB15B4F4BB00F58A29 /* oneclickcontact-Info.plist */ = {isa = PBXFileReference; path = "oneclickcontact-Info.plist"; sourceTree = "<group>"; };
+		65F541EB15B4F4BB00F58A29 /* oneclickcontact-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oneclickcontact-Info.plist"; sourceTree = "<group>"; };
 		65F541ED15B4F4BB00F58A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65F541EF15B4F4BB00F58A29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		65F541F115B4F4BB00F58A29 /* oneclickcontact-Prefix.pch */ = {isa = PBXFileReference; path = "oneclickcontact-Prefix.pch"; sourceTree = "<group>"; };
-		65F541F215B4F4BB00F58A29 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		65F541F115B4F4BB00F58A29 /* oneclickcontact-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oneclickcontact-Prefix.pch"; sourceTree = "<group>"; };
+		65F541F215B4F4BB00F58A29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65F541F315B4F4BB00F58A29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		65F541F615B4F4BB00F58A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		65F541F915B4F4BB00F58A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		65F541FB15B4F4BB00F58A29 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		65F541FB15B4F4BB00F58A29 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		65F541FC15B4F4BB00F58A29 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		65F541FE15B4F4BB00F58A29 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		65F541FE15B4F4BB00F58A29 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		65F541FF15B4F4BB00F58A29 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		65F5420615B4F4BB00F58A29 /* oneclickcontactTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oneclickcontactTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F5420715B4F4BB00F58A29 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		65F5420F15B4F4BB00F58A29 /* oneclickcontactTests-Info.plist */ = {isa = PBXFileReference; path = "oneclickcontactTests-Info.plist"; sourceTree = "<group>"; };
+		65F5420F15B4F4BB00F58A29 /* oneclickcontactTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oneclickcontactTests-Info.plist"; sourceTree = "<group>"; };
 		65F5421115B4F4BB00F58A29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		65F5421315B4F4BB00F58A29 /* oneclickcontactTests.h */ = {isa = PBXFileReference; path = oneclickcontactTests.h; sourceTree = "<group>"; };
+		65F5421315B4F4BB00F58A29 /* oneclickcontactTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oneclickcontactTests.h; sourceTree = "<group>"; };
 		65F5421415B4F4BB00F58A29 /* oneclickcontactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oneclickcontactTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +117,7 @@
 		65F541E915B4F4BB00F58A29 /* oneclickcontact */ = {
 			isa = PBXGroup;
 			children = (
+				65AA8C8915B4F805009EEEAE /* oneclickcontact.entitlements */,
 				65F541F215B4F4BB00F58A29 /* AppDelegate.h */,
 				65F541F315B4F4BB00F58A29 /* AppDelegate.m */,
 				65F541F515B4F4BB00F58A29 /* MainStoryboard_iPhone.storyboard */,
@@ -377,6 +379,7 @@
 		65F5421915B4F4BB00F58A29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = oneclickcontact/oneclickcontact.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "oneclickcontact/oneclickcontact-Prefix.pch";
 				INFOPLIST_FILE = "oneclickcontact/oneclickcontact-Info.plist";
@@ -388,6 +391,7 @@
 		65F5421A15B4F4BB00F58A29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = oneclickcontact/oneclickcontact.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "oneclickcontact/oneclickcontact-Prefix.pch";
 				INFOPLIST_FILE = "oneclickcontact/oneclickcontact-Info.plist";
@@ -449,6 +453,7 @@
 				65F5421A15B4F4BB00F58A29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65F5421B15B4F4BB00F58A29 /* Build configuration list for PBXNativeTarget "oneclickcontactTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +462,7 @@
 				65F5421D15B4F4BB00F58A29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
